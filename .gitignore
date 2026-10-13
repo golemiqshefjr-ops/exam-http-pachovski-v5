@@ -1,0 +1,9 @@
+# Visual Studio / ASP.NET MVC 5 — не качвайте в git компилирани файлове
+.vs/
+[Bb]in/
+[Oo]bj/
+packages/
+*.user
+*.suo
+*.cache
+*.log

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@ViewBag.Title - Места за настаняване</title>
+    <link rel="stylesheet" href="~/Content/site.css" />
+</head>
+<body>
+    <header><div class="container"><a href="@Url.Action("Index", "Hotels")">Места за настаняване</a></div></header>
+    <main class="container">
+        @RenderBody()
+    </main>
+</body>
+</html>
